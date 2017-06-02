@@ -1,5 +1,6 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="container">
+  <div class="jumbotron">
+    <h1>{{#link-to 'index'}}Ask Me Anything{{/link-to}}</h1>
+  </div>
+  {{outlet}}
+</div>
