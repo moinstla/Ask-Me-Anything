@@ -1,9 +1,33 @@
-# ask-me
+# Ask Me Anything
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### 6/2/2017
 
-## Prerequisites
+#### By Monique St Laurent
+
+## Description
+
+A message board app that allows junior developers and newbies learning to code to ask questions that senior developers, product owners, senior designers, recruiters, and other tech professionals can answer.
+
+## Planning
+
+1.  Configuration/dependencies--npm and bower
+
+2.  Specs--none at this time
+
+3.  Integration
+  * template/html: index--list of questions and their authors
+  * template/html: question details--question content, notes and answers
+  
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Refactor minor portion of...
+  * Delete unused...
+  * Make README awesome
+
+<!-- ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
@@ -12,39 +36,30 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd ask-me`
+## Setup/Installation Requirements
+* `git clone https://github.com/moinstla/Ask-Me-Anything.git` this repository
+* `cd Ask-Me-Anything`
 * `npm install`
+* `bower install`
 
 ## Running / Development
 
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
 
-Make use of the many generators for code, try `ember help generate` for more details
+### License
 
-### Running Tests
+This software is licensed under the MIT license.
+Copyright (c) 2017 **by Monique St. Laurent**
 
-* `ember test`
-* `ember test --server`
 
-### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
 
-### Deploying
 
-Specify what it takes to deploy your app.
 
-## Further Reading / Useful Links
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+
+
+ -->
