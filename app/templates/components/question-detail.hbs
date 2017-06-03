@@ -1,11 +1,7 @@
-
-
-<h2> Answers: </h2>
+<br>
+<h4> Answers: </h4>
 <ul>
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}
 </ul>
-
-
-<button {{action 'delete' question}}>Delete Question</button>

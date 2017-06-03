@@ -1,6 +1,8 @@
-<h2>{{model.author}}-{{model.content}}-{{model.note}}</h2>
+<h4>{{model.content}}<br></h4>
+<h5>--{{model.author}}<br></h5>
+<br>{{model.note}}<br><br>
 
-{{update-question question=model update="update"}}
+{{update-question question=model update="update" destroyQuestion="destroyQuestion"}}
 
 {{question-detail question=model destroyQuestion="destroyQuestion"}}
 

@@ -3,20 +3,20 @@
   <div>
     <form>
       <div class="form-group">
-        <label for="author">Author</label>
+        <label for="author">Name</label><br>
         {{input value=author id="author"}}
       </div>
       <div class="form-group">
-        <label for="content">Content</label>
-        {{input value=content id="content"}}
+        <label for="content">Question</label><br>
+        {{textarea row=2 value=content id="content"}}
       </div>
       <div class="form-group">
-        <label for="note">Note</label>
-        {{input value=note id="note"}}
+        <label for="note">Note</label><br>
+        {{textarea row=2 value=note id="note"}}
       </div>
       <button {{action 'saveQuestion'}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'questionFormShow'}}>New Question</button>
+  <button {{action 'questionFormShow'}}>Add Question</button>
 {{/if}}
